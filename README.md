@@ -1,67 +1,16 @@
-# 🚀 CostOps AI — Intelligent Cloud Cost Optimization Agent
+# React + Vite
 
-CostOps AI is a smart cloud cost optimization platform that helps analyze, monitor, and reduce cloud spending using anomaly detection, AI recommendations, and forecasting.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 📌 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-- 📊 Interactive Dashboard for cost visualization  
-- ⚠️ Detects anomalies (cost spikes, unused resources, duplicates, SLA risks)  
-- 🤖 AI-powered recommendations for cost saving  
-- ⚡ One-click action system to apply optimizations  
-- 📈 14-day cost forecasting  
-- 📑 Export reports in CSV  
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🎯 Problem
+## Expanding the ESLint configuration
 
-Cloud costs often increase due to:
-- Idle or unused resources  
-- Unexpected cost spikes  
-- Duplicate billing  
-- Lack of visibility  
-
----
-
-## 💡 Solution
-
-CostOps AI:
-- Identifies inefficiencies  
-- Suggests optimizations  
-- Estimates savings  
-- Helps take quick action  
-
----
-
-## 🧠 How It Works
-
-1. Upload cloud billing CSV  
-2. Detect anomalies using statistical analysis  
-3. Generate recommendations  
-4. Apply actions and track savings  
-5. Forecast future costs  
-
----
-
-## 🛠️ Tech Stack
-
-- React.js  
-- Plotly.js  
-- JavaScript  
-- Claude API (AI explanations)  
-
----
-
-## 📸 Screenshots
-
-_Add your UI screenshots here_
-
----
-
-## 🚀 Getting Started
-
-```bash
-npm install
-npm start
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
